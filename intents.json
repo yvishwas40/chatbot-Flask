@@ -1,0 +1,223 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "is anyone there?",
+        "hey there",
+        "hola"
+      ],
+      "responses": [
+        "Hello! I am  ChatVeda, your personal ayurvedic health assistant.Are you ready to take the survey?"
+      ]
+    },
+    {
+      "tag": "question1",
+      "patterns": ["Yes", 
+         "Haa", 
+         "Yeah", 
+         "Yep", 
+         "OK", 
+         "Done", 
+         "I am ready", 
+         "Absolutely", 
+         "Let's get started", 
+         "I am all set",
+         "Sure",
+          "Proceed"
+        ],
+      "responses": [ 
+        "What is your natural hair color? like [ black,grey,white,brown ]"
+      ]
+    },
+    {
+      "tag": "question2",
+      "patterns": ["Black", 
+                   "White", 
+                   "Red", 
+                   "Pale", 
+                   "Brown", 
+                   "Blonde", 
+                   "Chestnut", 
+                   "Auburn", 
+                   "Gray", 
+                   "Dark Brown", 
+                   "Black with Natural Highlights"],
+      "responses": ["Would you describe your nose size? [ oversized, narrow, small, flat, Medium ]"]
+    },
+    {
+      "tag": "question3",
+      "patterns": [
+        "Oversized",
+         "Small",
+          "Narrow", 
+          "Big", 
+          "Round", 
+          "Normal", 
+          "Medium", 
+          "Large",
+          "Roman", 
+          "Aquiline", 
+          "Snub", 
+          "Hooked", 
+          "Bulbous", 
+          "Flat", 
+          "Hawk", 
+          "Button", 
+          "Long"
+      ],
+      "responses": [
+        "How does your skin tend to feel?[ Dry, Moisture, Normal, Rough, Oily, Itchy, Smooth ]"
+      ]
+    },
+    {
+      "tag": "question4",
+      "patterns": [
+        "Dry", 
+        "Moisture", 
+        "Normal", 
+        "Rough", 
+        "Oily", 
+        "Itchy", 
+        "Smooth", 
+        "Soft", 
+        "Warm", 
+        "Cool", 
+        "Moist", 
+        "Tight", 
+        "Prickly", 
+        "Tingly", 
+        "Sweaty", 
+        "Numb"
+      ],
+      "responses": [
+        "Could you specify your voice tone? [thin, thick, harsh, soft, grunting, cracked]"
+      ]
+    },
+    {
+      "tag": "question5",
+      "patterns": [
+        "thin",
+        "thick",
+        "harsh",
+        "soft",
+        "grunting",
+        "cracked"
+      ],
+      "responses": [
+        "Would you describe your exercise routine? [Often, Rarely, Daily, Never]"
+      ]
+    },
+    {
+      "tag": "question6",
+      "patterns": [
+       "often", 
+       "Rarely", 
+       "Frequently", 
+       "Daily", 
+       "Never", 
+       "Regularly", 
+       "Irregularly", 
+       "Occasionally"
+      ],
+      "responses": [
+        "How has your digestion been lately? [Indigestion, Proper digestion, Improper digestion, Great, Poor]"
+      ]
+    },
+    {
+      "tag": "question7",
+      "patterns": [
+        "Indigestion", 
+        "Proper digestion", 
+        "Improper digestion", 
+        "Great",
+        "Poor", 
+        "Normal",
+        "proper",
+        "improper"
+      ],
+      "responses": [
+        "Could you mention your appetite status? [Low, Medium, Heavy, Satisfied, Hungry, Full, Normal]"
+      ]
+    },
+    {
+      "tag": "question8",
+      "patterns": [
+        "Low", 
+        "Medium", 
+        "Heavy", 
+        "Satisfied", 
+        "Hungry", 
+        "Full", 
+        "Normal"
+      ],
+      "responses": [
+        "Could you specify your sleep cycle? How long do you sleep? (in hours)"
+
+      ]
+    },
+    {
+      "tag": "question9",
+      "patterns": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+
+      ],
+      "responses": [
+        "How do you rate your memory?[ excellent, forgetful, better ]"
+        
+      ]
+      
+    },
+    {
+      "tag": "question10",
+      "patterns": [
+       "ecellent",
+       "forgetful",
+       "better"
+      ],
+      "responses": [
+        "What is you BMI range? [ underweight, healthyweight, overweight ]"
+      ]
+    },
+    {
+      "tag": "end",
+      "patterns": [
+        "no",
+        "bye",
+        "thank you",
+        "skip"
+      ],
+      "responses": [
+        "Thank you! see you again",
+        "Thank you!, please visit again"
+      ]
+    },
+  
+    {
+      "tag": "suggestions",
+      "patterns": [
+        "underweight", 
+        "healthyweight", 
+        "overweight"
+       
+      ],
+      "responses": [
+        "From the given responses you belong to 'VATA', Opt for warm, nourishing foods such as soups, stews, and cooked grains. Avoid cold, raw foods and excessive caffeine, as they can aggravate Vata.Stick to a regular routine, get enough rest, and practice calming activities like yoga and meditation.Incorporate warming herbs like ginger and cinnamon into your diet.",
+        "From the given responses you belongg to 'PITTA',Opt for cooling foods like cucumbers, mint, and coconut. Avoid spicy, fried, and acidic foods.Stay cool and avoid excessive heat. Practice relaxation techniques to manageUse herbs like aloe vera and coriander to soothe inflammation.",
+        "From the given responses you belong to 'KAPHA', Embrace a diet of light, spicy, and warming foods. Limit dairy and heavy, sweet foods.Stay active and engage in regular exercise. Avoid excessive sleep and daytime naps.Incorporate herbs like ginger and turmeric to stimulate digestion."
+      ]
+    }
+  ]
+}
